@@ -15,5 +15,6 @@ fs.readFile('input.txt', 'utf8', (err, data) => {
       return;
     }
     console.log('File manipulation successful!');
+    console.log(modifiedData); //
   });
 });
