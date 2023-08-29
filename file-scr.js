@@ -14,7 +14,7 @@ fs.readFile('input.txt', 'utf8', (err, data) => {
       console.error('Error writing file:', err);
       return;
     }
-    console.log('File manipulation successful!');
-    console.log(modifiedData); //
+    console.log('File manipulation successful');
+    // console.log(modifiedData); //
   });
 });
