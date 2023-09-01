@@ -6,8 +6,9 @@ fs.readFile('input.txt', 'utf8', (err, data) => {
   }
 
   // Manipulate the file content, convert to uppercase letters
-  const modifiedData = data.toUpperCase();
-
+  const modifiedData = data.toLowerCase();
+  // const modifiedData = data.toUpperCase();
+  
   // Write the modified content to the new file
   fs.writeFile('output.txt', modifiedData, (err) => {
     if (err) {
